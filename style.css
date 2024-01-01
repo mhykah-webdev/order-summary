@@ -116,7 +116,7 @@ body {
 .order-card .card-blurb {
     text-align: center;
     display: grid;
-    gap: 1em;
+    gap: 1.5em;
     padding: 2em;
 }
 
