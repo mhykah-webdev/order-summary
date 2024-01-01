@@ -6,6 +6,7 @@
     --clr-light-purple: #766CF1;
     --clr-grey: #717FA6;
     --clr-black: #1F2E55;
+    --clr-blue-shadow: #0D30BD26;
 
     --fw-medium: 500;
     --fw-bold: 700;
@@ -104,6 +105,8 @@ body {
     margin: 1em;
     background-color: var(--clr-white);
     border-radius: 1em;
+    box-shadow: 0 40px 40px var(--clr-blue-shadow);
+
 }
 
 .order-card picture img {
@@ -177,6 +180,7 @@ h1 {
     color: var(--clr-white);
     font-size: 15px;
     font-weight: var(--fw-black);
+    box-shadow: 0 4px 4px #00000045;
 }
 
 .button:hover {
